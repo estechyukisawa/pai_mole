@@ -1,0 +1,6 @@
+# ターミナル1
+cd ~/mole_ws/worlds && gz sim -r test.sdf
+# ターミナル2
+cd ~/mole_ws/worlds && bash bridge.sh
+# ターミナル3（Gazeboの画面が出てから）
+cd ~/mole_ws/scripts && ~/mole_venv/bin/python whack_ai.py
